@@ -31,16 +31,3 @@ window.addEventListener("scroll", function () {
     hijoActual.classList.toggle("abajo-menu", window.scrollY > 0);
   }
 });
-
-/* Alerta Recuperar usuario: */
-const btnCerrarAlertaRU = document.querySelector("#modal-ru-close");
-const sectionRU = document.querySelector("#modal-ru-section");
-const ruOlvideContrasena = document.querySelector("#ru-olvide-contrasena");
-
-btnCerrarAlertaRU.addEventListener("click", function () {
-  sectionRU.classList.toggle("ocultar-ventana-modal");
-});
-
-ruOlvideContrasena.addEventListener("click", function () {
-  sectionRU.classList.toggle("ocultar-ventana-modal");
-});
